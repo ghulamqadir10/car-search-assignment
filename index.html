@@ -7,14 +7,15 @@
     <title>car brand assignment
     </title>
     <style>
-        #card-style{
-            border:2px solid black;
+        #card-style {
+            border: 2px solid black;
             border-radius: 30px;
             padding: 10px;
             box-shadow: 10px 10px 10px grey;
         }
+
         .hide {
-            display: none;  
+            display: none;
         }
 
         #specs {
@@ -46,22 +47,33 @@
 
         }
 
-        ;
+        #intro {
+            text-align: center;
+        }
+
+        #inputfield {
+text-align: center;
+        }
     </style>
 </head>
 
 <body>
+    <h1 id="intro">Search Brand And Model</h1>
+    
+    <div id="inputfield">
 
-    <label>Select Brand</label>
-    <select name="" id="mobilebrand">
-        <option value="">~~Select Brand~~</option>
-    </select>
-    <label>select model</label>
-    <select id="models">
-        <option value="">~~Select Models~~</option>
-    </select>
-    <button id="search" onclick="search()">Search</button>
+        <label>Select Brand</label>
+        <select name="" id="mobilebrand">
+            <option value="">~~Select Brand~~</option>
+        </select>
+        <label>select model</label>
+        <select id="models">
+            <option value="">~~Select Models~~</option>
+        </select>
+        <button id="search" onclick="search()">Search</button>
+    </div>
 
+    <h1 id="intro">Avalible Models</h1>
     <div id="specs">
         <!-- specs will br show here -->
     </div>
