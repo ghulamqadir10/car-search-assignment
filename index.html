@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car brand assignment
+    </title>
+    <style>
+        #card-style{
+            border:2px solid black;
+            border-radius: 30px;
+            padding: 10px;
+            box-shadow: 10px 10px 10px grey;
+        }
+        .hide {
+            display: none;  
+        }
+
+        #specs {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            /* border: 12px solid black; */
+            margin-top: 20px;
+            padding: 10px 0px;
+        }
+
+        .card {
+            border: 2px solid black;
+            border-radius: 30px;
+            padding: 10px 10px;
+        }
+
+        img {
+            mix-blend-mode: multiply;
+            /*  */
+        }
+
+        .card-img-top {
+            mix-blend-mode: multiply;
+            width: 100%;
+            height: 170px;
+
+        }
+
+        ;
+    </style>
+</head>
+
+<body>
+
+    <label>Select Brand</label>
+    <select name="" id="mobilebrand">
+        <option value="">~~Select Brand~~</option>
+    </select>
+    <label>select model</label>
+    <select id="models">
+        <option value="">~~Select Models~~</option>
+    </select>
+    <button id="search" onclick="search()">Search</button>
+
+    <div id="specs">
+        <!-- specs will br show here -->
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
